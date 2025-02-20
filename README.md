@@ -4,7 +4,10 @@ A little simulation "game" with snake I made a while back, showcasing some basic
 Had fun, learned smth.
 
 ---
-https://github.com/PavelFalta/snakies/blob/main/demo.mp4
+<video width="640" height="360" controls>
+  <source src="https://github.com/PavelFalta/snakies/blob/main/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ---
 
 ## Table of Contents
