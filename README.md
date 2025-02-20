@@ -4,6 +4,8 @@ A little simulation "game" with snake I made a while back, showcasing some basic
 Had fun, learned smth.
 
 ---
+https://github.com/PavelFalta/snakies/blob/main/demo.mp4
+---
 
 ## Table of Contents
 - [Overview](#overview)
