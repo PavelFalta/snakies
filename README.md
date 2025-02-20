@@ -74,6 +74,10 @@ python game.py --snakes 2 --fruits 5 --board_size 100 --tick_rate 60 --fruit_val
 *   `--tick_rate`: FPS or game tick rate.
 *   `--fruit_value`: Score value for each fruit.
 *   `--terrain_alpha`: Influences the snake's decision to choose a safer fruit vs. a closer one.
+
+**Flags**:
+*   `--display-path`: Display path cells.
+*   `--display-scores`: Display scores above snake heads.
 *   `--verbose`: Toggles verbose logging for debugging.
 
 * * *
@@ -179,7 +183,7 @@ it will drop the current path and look for alternatives.
 
 The snake uses a couple of strategies to find the optimal route:
 
-*   __A_ Search (find\_path):_\*  
+*   **A\* Search (find\_path):**  
     The primary method for calculating the best path to a target fruit. It balances distance (via wrap-around Manhattan distance) and the fruit’s score (via the fruit scoring function).
     The calculated path is stored in a deque and used to drive the snake’s movement.
     
