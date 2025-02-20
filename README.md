@@ -31,7 +31,7 @@ Had fun, learned smth.
 This repo contains a simulation "game" that uses a snake to demonstrate several pathfinding algos (A*, BFS) and heuristics.
 The snake semi-intelligently (just intelligent enough to still make mistakes sometimes and die, which is on purpose) calculates 
 paths toward fruits, handles collisions, and  switches to a fallback mode ("biding time") when no safe path is available. 
-The game runs on a toroidal board, meaning the edges wrap around (wrap-around behavior), which makes the heuristics cool and stuff.
+The simulation runs on a toroidal board, meaning the edges wrap around (wrap-around behavior), which makes the heuristics cool and stuff.
 
 ---
 
@@ -39,8 +39,8 @@ The game runs on a toroidal board, meaning the edges wrap around (wrap-around be
 
 1. **Clone the Repo:**
     ```bash
-       git clone https://github.com/your-username/snake-game.git
-       cd snake-game
+       git clone https://github.com/PavelFalta/snakies.git
+       cd snakies
     ```
 
 2.  **Set up a Virtual Env (optional ig):**
@@ -62,16 +62,22 @@ The game runs on a toroidal board, meaning the edges wrap around (wrap-around be
 Usage
 -----
 
-To run the game, use the command below. Args are as below:
+To run the simulation, use the command below. Args are as below:
 
 ```bash
-python game.py --snakes 2 --fruits 5 --board_size 100 --tick_rate 60 --fruit_value 1 --terrain_alpha 4 --verbose
+python snakies.py --snakes 2 --fruits 5 --board_size 100 --tick_rate 60 --fruit_value 1 --terrain_alpha 4 --verbose --display-path --display-scores --verbose
+```
+
+or just
+
+```bash
+python snakies.py
 ```
 
 *   `--snakes`: Number of snake instances.
 *   `--fruits`: Number of fruits on board.
 *   `--board_size`: Size of the square board (NxN).
-*   `--tick_rate`: FPS or game tick rate.
+*   `--tick_rate`: FPS or simulation tick rate.
 *   `--fruit_value`: Score value for each fruit.
 *   `--terrain_alpha`: Influences the snake's decision to choose a safer fruit vs. a closer one.
 
