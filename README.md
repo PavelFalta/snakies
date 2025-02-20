@@ -3,12 +3,10 @@
 A little simulation "game" with snake I made a while back, showcasing some basic path finding algos, heuristics, etc etc.
 Had fun, learned smth.
 
----
-<video width="640" height="360" controls>
-  <source src="https://github.com/PavelFalta/snakies/blob/main/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
----
+https://github.com/user-attachments/assets/924129e1-718c-49e2-a7d1-ef18fced720d
+
+
+
 
 ## Table of Contents
 - [Overview](#overview)
