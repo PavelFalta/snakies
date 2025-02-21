@@ -1,6 +1,6 @@
 # Snake Game - BFS & Fruit Scoring
 
-A little simulation "game" with snake I made a while back, showcasing some basic path finding algos, heuristics, etc etc.
+A little simulation "game" filled with snakes I made a while back, showcasing some basic path finding algos, heuristics, etc etc.
 Had fun, learned smth.
 
 https://github.com/user-attachments/assets/924129e1-718c-49e2-a7d1-ef18fced720d
